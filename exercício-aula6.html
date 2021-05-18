@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de programação Javascript</title>
+</head>
+
+<body>
+    <h1>Lógica de programação com Javascript</h1>
+    <h2>Operadores lógicos</h2>
+</body>
+<script>
+    /* ! Não (not)
+    && E (and)
+    || Ou (or) */
+
+    var nota1 = parseFloat(prompt("digite um número"));
+
+    var nota2 = parseFloat(prompt("digite outro número"));
+
+    var media = (nota1 + nota2) / 2;
+
+    if (nota1 === 0 || nota2 === 0 || media < 5) {
+        alert("Reprovado")
+    } else {
+        alert("Parabéns, você foi aprovado")
+    }
+
+</script>
+
+</html>
