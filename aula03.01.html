@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de programação Javascript</title>
+</head>
+
+<body>
+    <h1>Lógica de programação com Javascript</h1>
+
+</body>
+<script>
+
+    var inicio = 1004
+
+    while (inicio <= 2017) {
+        document.write(inicio + '<br>')
+        //inicio = inicio + 4
+        inicio += 4
+        if (inicio % 1000 == 0) {
+            document.write('<hr>')
+        }
+    }
+    // 3 condições para um loop funcionar: varivel, condição e condição de incremento no caso do while
+
+    // ou
+
+    for (var x = 1004; x <= 3017; x += 4) {
+        document.write(x + '<br>')
+        if (x % 20 == 0) {
+            document.write('<hr>')
+        }
+        // document.write(n + '<br>' )
+    }
+    document.write('saiu do loop')
+
+    
+
+
+</script>
+
+</html>
